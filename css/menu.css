@@ -1,0 +1,337 @@
+body::-webkit-scrollbar {width:0px;}
+.carousel-item {
+    transition: 1.5s;
+}
+.my-carousel {
+    padding: 0;
+}
+.my-carousel .carousel-item {
+    display: flex;
+    height: 100vh;
+}
+
+.my-carousel .carousel-item {
+    object-fit: cover;
+}
+.navigat {
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    box-shadow: 1px 1px 5px 1px rgb(117, 117, 117);
+
+}
+.navbar-brand {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: #ffffff -3px -2px 1px ;
+    background: linear-gradient(45deg, #ebbba7, #cfc7f8);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-family: 'Marck Script';
+    font-size: 30px;
+}
+.navbar-brand {
+    display: none;
+}
+.nav-feed-line a {
+    color: #fff;
+}
+.nav-link{
+    color: #000;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: #ffffff -3px -2px 1px ;
+    background: linear-gradient(45deg, #ebbba7, #cfc7f8);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-family: 'Marck Script';
+    font-size: 30px;
+}
+.dropdown-menu    {
+    background: linear-gradient(45deg, #ebbba7, #cfc7f8);
+    box-shadow: 1px 1px 20px 3px#1e1e1e;
+}
+.img-block {
+    transition: 0.5s;
+}
+.img-block:hover {
+    transform:  scale(1.3);
+}
+.menu-title-card {
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+}
+.menu-title {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+.btnn {
+    margin-top: 60px;
+    width: 100%;
+    background: #ffffff;
+    padding: 5px 5px;
+    transition: 0.3s;
+    border-color: rgba(9, 62, 238, 0.103);
+    
+}
+.btnn:hover {
+    box-shadow: 1px 1px 6px 1px #069dfc;
+}
+.btn-primary {
+    left: 30%;
+    margin-bottom: 100px;
+    
+}
+.food-con a {
+    transition: 0.1s;
+    color: antiquewhite;
+}
+.food-c {
+    color: antiquewhite;
+}
+.food-con a:hover {
+    color:#d67e35 ;
+}
+.menu-title h1 {
+    font-weight: 500;
+    color: #fff;
+}
+.menu-img {
+    height: 200px;
+    width:100%;
+    display: block;
+    margin: auto;
+}
+.drink-name {
+    padding-top:50px ;
+}
+.drink-title {
+    text-align: center;
+    font-size: 70px;
+    color: #d67e35;
+    font-family: 'Oswald';
+}
+.row {
+    justify-content: space-between;
+}
+.col-3 {
+    margin-top: 50px;
+    width: 24%;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+}
+.menu-card {
+    padding: 20px 15px;
+
+}
+.menu-title-1 {
+    font-size: 90px;
+    font-family: 'Oswald';
+}
+.nav-feed-line ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 20px;
+    color: rgba(0,0,0,.55);
+    font-weight: 500;
+}
+.nav-link {
+    margin-right: 50px;
+    font-weight: 500;
+    color: rgba(0,0,0,.55);
+}
+.menu-desc {
+    font-family: 'Roboto';
+    text-align: justify;
+    color: #754829;
+}
+.food {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.drink-1 {
+    width: 33.333%;
+    height: 400px;
+    margin-right: 5px;
+   
+}
+.food-con-up-img {
+    width: 50px;
+    height: 50px;
+}
+.drink-11 {
+    height: 100%;
+}
+.drink-2 {
+    width: 33.3333%;
+    height: 400px;
+    margin-right: 5px;
+    margin-left: 5px;
+ 
+    
+}
+.drink-3 {
+    margin-left: 5px;
+    width: 33.33333%;
+    height: 400px;
+    
+}
+.drink-33 {
+    display: none;
+}
+footer {
+    background: #1e1e1e;
+    padding: 50px;
+    text-align: center;
+    color: antiquewhite;
+    margin-top: 50px;
+}
+.banner {
+    border-radius: 10px;
+    padding: 50px;
+    margin-top: 50px;
+    background-color: #fff;
+}
+.drink-33 {
+    width: 180px;
+}
+.drink-img {
+    display: flex;
+    background: #1e1e1e;
+    padding: 10px 10px
+}
+.banner {
+    box-shadow: 1px 1px 10px 1px #069dfc;
+}
+.weight {
+    margin-left: 38%;
+}
+.drink-block {
+    box-shadow: 1px 4px 20px 5px rgb(53, 53, 53);
+    border-top: 1px solid rgb(187, 187, 187);
+}
+.form-label {
+    margin-top: 10px;
+}
+@media (max-width:1400px) {
+    .menu-img {
+        height: 180px;
+        width: 100%;
+    }
+    .drink-11 {
+        height: 100%;
+    }
+}
+@media (max-width:1000px) {
+    .col-3 {
+        width: 47%;
+    }
+    .menu-card {
+        padding: 15px 5px;
+    }
+}
+@media (max-width:992px) {
+    .food-con {
+        margin-bottom: 10px;
+        font-size: 17px;
+    }
+    .navbar-brand {
+        display: initial;
+    }
+    .navig {
+        text-decoration: underline;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .navbar-brand {
+        margin-top: 12px;
+    }
+    .burger {
+        margin-top: -5px;
+    }
+}
+@media (max-width:900px) {
+    .drink-1 {
+        display: none;
+    }
+    .drink-1 {
+        margin-left: -7px;
+    }
+    .drink-11 {
+        height: 100%;
+    }
+    .drink-3, .drink-2 {
+        width: 50%;
+        height: 300px;
+    }
+    .drink-2 {
+        margin-right: 0px;
+    }
+    .drink-img {
+        padding: 5px 5px 5px 0px;
+    }
+}
+@media (max-width:500px) {
+    .my-carousel .carousel-item {
+        height: 720px;
+    }
+    .food {
+        display: block;
+    }
+    .ofic-block {
+        align-items: center;
+        max-width: 300px;
+    }
+    .ofic {
+        max-width: 300px;
+        
+    }
+    .menu-img {
+        height: 140px;
+    }
+    .menu-title-1 {
+        font-size: 40px;
+        font-family: 'Oswald';
+        margin-top: 190px;
+    }
+    .weight {
+        margin-left: 30%;
+    }
+    .drink-title {
+        font-size: 42px;
+    }
+    .drink-title:before , .drink-title:after {
+        display: none;
+    }
+    .menu-title {
+        position: absolute;
+        z-index: 2;
+        top: 37%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        
+    }
+    .col-3 {
+        width: 48%;
+    }
+    .container {
+        max-width: 380px;
+    }
+}
+@media (max-width:350px) {
+    .food-menu-i {
+        width: 50px;
+        height: 50px;
+    }
+}
